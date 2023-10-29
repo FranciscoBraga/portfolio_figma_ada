@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,
+text,
+body,
+input,
+select,
+textarea{
+  font-family: "Heebo", sans-serif;
+}
+
+body{
+   background-color: #f7f7f7;
+}
+
+header{
+  background-color: #fff;
+}
+
+header #navbar{
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  padding: 0 2rem;
+  width: 80%;
+  max-width: 1200px;
+  margin:0 auto;
+  height: 89px;
+}
+
+header #navbar .nav-brand{
+ text-decoration: none;
+ font-size: 1.5rem;
+ font-weight: 700;
+ color: #333;
+}
+
+header #navbar .nav-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap:31px;
+}
+
+header #navbar .nav-list .nav-item a{
+ text-decoration: none;
+ font-size: 1rem;
+ font-weight: 700;
+ color:#333;
+}
+
+header #navbar .nav-list .nav-item a:hover{
+  color:#777;
+  transition: color 0.3s;
+}
+/* SECTION BANNER*/
+
+main #banner{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  width: 80%;
+}
+
+main #banner .banner-content{
+  width: 80%;
+}
+
+main #banner .banner-content-title{
+  width: 52%;
+}
+
+main #banner .banner-content-subtitle{
+  width: 90%;
+  margin-top: 30px;
+}
+
+main #banner .banner-content-btn{
+  margin-top: 30px;
+  color:#fff;
+  background-color:aqua;
+  padding: 10px;
+  font-weight: 400;
+  border: none;
+}
+
+main #banner .banner-content-btn:hover{
+  background-color:aquamarine;
+  transition: color 0.3s;
+}
+
+main #banner .banner-imagem{
+  border-radius: 50%;   
+  width: 200px;
+  height: 200px;
+}
+
+/*SECTION POSTS*/
+#posts{
+  margin-top: 71px;
+  background-color: #edf7f7;
+  
+}
+
+#posts .post-content{
+  max-width: 1200px;
+  margin:0 auto;
+  width: 80%;
+ 
+}
+
+#posts .post-content .content-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2px;
+  margin-top: 5px;
+}
+
+#posts .post-content .content-header .section-title{
+ font-size: 22px;
+ font-weight: 500;
+
+}
+
+#posts .post-content .content-header .view-all-link{
+ text-decoration: none;
+ color: #00a8cc;
+}
+
+#posts .post-content .posts-cards {
+  display: flex;
+  gap:21px;
+
+} 
+
+#posts .post-content .posts-cards .posts-card {
+  background-color: white;
+  width: 50%;
+}
+
+
